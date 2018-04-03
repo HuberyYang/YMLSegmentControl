@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YMLSegmentControl_Example' do
+  pod 'YMLSegmentControl', :path => '../'
+
+  target 'YMLSegmentControl_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
