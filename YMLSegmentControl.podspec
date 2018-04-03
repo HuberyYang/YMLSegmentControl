@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YMLSegmentControl'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'YMLSegmentControl'
 
   s.description      = <<-DESC
@@ -16,7 +16,10 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
   s.requires_arc = true
+  
   s.source_files = 'YMLSegmentControl/Classes/**/*'
+  s.public_header_files = 'YMLSegmentControl/Classes/YMLSegmentControl.h'
+  
   s.frameworks = 'UIKit'
 
 end
