@@ -5,8 +5,6 @@ A simple and easy to use segment control.
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-
 ## Installation
 
 YMLSegmentControl is available through [CocoaPods](http://cocoapods.org). To install
@@ -18,7 +16,7 @@ pod 'YMLSegmentControl'
 
 ## Author
 
-HuberyYang
+[HuberyYang](http://www.huberyyang.com)
 
 Email: yml_hubery@sina.com
 

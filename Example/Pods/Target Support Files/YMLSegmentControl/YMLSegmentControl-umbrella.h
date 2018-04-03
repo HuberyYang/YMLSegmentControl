@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "UIView+YMLCategory.h"
+#import "YMLSegmentControl.h"
 
 FOUNDATION_EXPORT double YMLSegmentControlVersionNumber;
 FOUNDATION_EXPORT const unsigned char YMLSegmentControlVersionString[];

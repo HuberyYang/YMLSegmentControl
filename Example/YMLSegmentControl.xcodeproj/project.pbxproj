@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		32C972780482256AD6B02197 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		32C972780482256AD6B02197 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4664BCFBC254BD9C65A4F920 /* Pods_YMLSegmentControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YMLSegmentControl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* YMLSegmentControl_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMLSegmentControl_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,8 +64,8 @@
 		9DBB92D118D652187DAB8F6D /* Pods_YMLSegmentControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YMLSegmentControl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A88844C659F40DC87322A0 /* Pods-YMLSegmentControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMLSegmentControl_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YMLSegmentControl_Example/Pods-YMLSegmentControl_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DCA5784D04C6D9CAD3CAF92F /* Pods-YMLSegmentControl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMLSegmentControl_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YMLSegmentControl_Tests/Pods-YMLSegmentControl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DDB0FE3DCBFF84CD9685E286 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		EBE8F0785D20FB12B3F70E39 /* YMLSegmentControl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YMLSegmentControl.podspec; path = ../YMLSegmentControl.podspec; sourceTree = "<group>"; };
+		DDB0FE3DCBFF84CD9685E286 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EBE8F0785D20FB12B3F70E39 /* YMLSegmentControl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YMLSegmentControl.podspec; path = ../YMLSegmentControl.podspec; sourceTree = "<group>"; };
 		F567D62359C9A467515EA8E6 /* Pods-YMLSegmentControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMLSegmentControl_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YMLSegmentControl_Tests/Pods-YMLSegmentControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -536,6 +536,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YMLSegmentControl/YMLSegmentControl-Prefix.pch";
 				INFOPLIST_FILE = "YMLSegmentControl/YMLSegmentControl-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -551,6 +552,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YMLSegmentControl/YMLSegmentControl-Prefix.pch";
 				INFOPLIST_FILE = "YMLSegmentControl/YMLSegmentControl-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
