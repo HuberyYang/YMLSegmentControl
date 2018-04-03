@@ -1,0 +1,6 @@
+framework module YMLSegmentControl {
+  umbrella header "YMLSegmentControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

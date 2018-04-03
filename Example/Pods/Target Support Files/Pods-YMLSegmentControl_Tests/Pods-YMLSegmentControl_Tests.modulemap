@@ -1,0 +1,6 @@
+framework module Pods_YMLSegmentControl_Tests {
+  umbrella header "Pods-YMLSegmentControl_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

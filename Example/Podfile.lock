@@ -1,0 +1,16 @@
+PODS:
+  - YMLSegmentControl (0.1.0)
+
+DEPENDENCIES:
+  - YMLSegmentControl (from `../`)
+
+EXTERNAL SOURCES:
+  YMLSegmentControl:
+    :path: ../
+
+SPEC CHECKSUMS:
+  YMLSegmentControl: 5af93313759d3816d434a980c0263b223f2a9f12
+
+PODFILE CHECKSUM: 7531ac6a1b822cd5b7a0357b074c21139afa456b
+
+COCOAPODS: 1.4.0
