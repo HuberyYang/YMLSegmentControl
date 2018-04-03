@@ -1,7 +1,7 @@
 # YMLSegmentControl
 A simple and easy to use segment control.
 
-> 当前版本：`1.0.0`
+> 当前版本：`1.0.1`
 
 ## How To Use
 
