@@ -35,7 +35,7 @@ typedef void(^SelectedBlock)(NSInteger index);
 /** 按钮标题 */
 @property (strong, nonatomic) NSArray<NSString *> *titles;
 
-/** 屏幕内最大显示按钮数，默认为4个 */
+/** 屏幕内最大显示按钮数，默认为4 */
 @property (assign, nonatomic) NSInteger maxShowNum;
 
 /** item 间距，默认为10.0f */
@@ -72,7 +72,7 @@ typedef void(^SelectedBlock)(NSInteger index);
 /// init
 - (instancetype)initWithFrame:(CGRect)frame titles:(NSArray *)titles selectBlock:(SelectedBlock)selectedBlock;
 
-/// 从外部设置选中的button，不会触发回调block
+/// 设置选中的item，不会触发点击事件
 - (void)itemSelectedAtIndex:(NSInteger)index;
 
 

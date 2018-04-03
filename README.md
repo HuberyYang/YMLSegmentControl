@@ -1,10 +1,35 @@
 # YMLSegmentControl
 A simple and easy to use segment control.
 
-## Example
+> 当前版本：`1.0.0`
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+## How To Use
 
+- 引入
+
+	```objc
+	#import <YMLSegmentControl/YMLSegmentControl.h>
+	```
+
+- 初始化并使用`block`处理点击事件
+
+	```objc
+	YMLSegmentControl *segmentControl = [[YMLSegmentControl alloc] initWithFrame:frame titles:titles selectBlock:^(NSInteger index) {
+		NSLog(@"click at index : %ld",index); 
+	}];
+	```
+
+- 或者使用`delegate`处理点击事件
+
+	```objc
+	segmentControl.delegate = self;
+	
+	#pragma mark -- YMLSegmentControlDelegate
+	- (void)segmentControl:(YMLSegmentControl *)segmentControl didSelectedAtIndex:(NSInteger)index{
+	    NSLog(@"click at index : %ld",index);
+	}
+	```
+	
 ## Installation
 
 YMLSegmentControl is available through [CocoaPods](http://cocoapods.org). To install
